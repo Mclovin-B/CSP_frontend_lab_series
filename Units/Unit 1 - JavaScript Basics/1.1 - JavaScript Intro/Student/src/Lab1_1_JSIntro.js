@@ -45,6 +45,7 @@ console.log(`I am ${age} years old`);
 /* ===========================================================
    🎟 EXIT TICKET
    1. What new concept or skill did you learn in this lab?
+<<<<<<< HEAD
 how to declare a variable and reassign it and use let instead of var 
 
    2. How did you apply logic or conditionals in your code?
@@ -55,4 +56,8 @@ also not knowing what a camelcase was
 
    4. Where else could this programming concept be useful?
    Organizing data and info 
+=======
+   2. What challenges did you encounter, and how did you solve them?
+   3. Where else could this programming concept be useful?
+>>>>>>> upstream/main
    =========================================================== */
