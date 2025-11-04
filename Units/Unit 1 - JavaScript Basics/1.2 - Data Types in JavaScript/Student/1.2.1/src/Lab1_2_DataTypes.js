@@ -3,7 +3,10 @@
 */
 
 // TODO 1: Create variables age (34) and price (12.99), print both
-`age = 15` `price = 9.99` 
+let `age = 15` 
+
+ let `price = 9.99`
+ console.log(`age: ${age})
 // TODO 1b: Divide "Sandra" by 2 and print result (expect NaN)
 `name = "Sandra"` `result = name / 2`
 // TODO 2: Print basic math ops: + - * /
@@ -18,6 +21,8 @@ score -= 3;
 console.log(`Score: ${score}`); 
 
 // TODO 4: Expressions with operator precedence
+let result; = 2 + 3 * 4;
+console.log("Result without parentheses:"', result);;
 console.log("Without parentheses: 2 + 3 * 4 =", 2 + 3 * 4);     // 14
 console.log("With parentheses: (2 + 3) * 4 =", (2 + 3) * 4);   // 20
 // TODO 5: Strings (single, double, backticks)
@@ -26,9 +31,10 @@ console.log(greeting);
 let name = 'Alice';
 console.log(`Welcome, ${name}!`);
 // TODO 6: String properties and methods
-// - greeting.length
+// - greeting.length anna.lenght returns 3 because of the amount of characters in the string
 // - charAt(0), charAt(5), [3]
 // - indexOf("sad")
+console.log("dont be sad be happy".indexOf("sad); // 9
 // - repeat()
 // - substring, substr, slice examples
 

@@ -26,7 +26,7 @@ let grade;
 // TODO 4: Null
 let city = null;
 city = "miami";
-print(city);
+console.log(city);
 // - Create city = null, print it
 // - Reassign city = "Miami" and print again
 
